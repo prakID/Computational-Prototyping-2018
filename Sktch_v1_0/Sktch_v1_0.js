@@ -1,3 +1,9 @@
+//Sktch
+//Ver. 1.0
+//By Prakash Kumar Rajendran, 2018
+//for Computational Prototyping for Industrial Design, RMIT Industrial Design
+//https://github.com/prakID
+
 var sliderR; //declaring slider control variables for rgb
 var sliderG;
 var sliderB;
@@ -109,7 +115,7 @@ function draw() {
   textAlign(CENTER);
   textFont('Helvetica',14);
   fill(r,g,b); //to change colour of the text same as the brush
-  noStroke();
+  strokeWeight(1);
      text('Sktch v1.0', 1, 650, 219, 719); // numeric values of the textbox, will be influenced by rectmode
 
   textFont('Helvetica',10);
